@@ -1,2 +1,2 @@
-@reboot /usr/local/bin/watchtower --run-once open-webui  # Immediate run at startup (handled by cron)
-0 0 * * * /usr/local/bin/watchtower open-webui --interval INTERVAL_PLACEHOLDER  # Recurring job (placeholder)
+@reboot /usr/local/bin/watchtower --run-once TARGET_PLACEHOLDER  # Immediate run at startup (handled by cron)
+0 0 * * * /usr/local/bin/watchtower TARGET_PLACEHOLDER --interval INTERVAL_PLACEHOLDER  # Recurring job (placeholder)
