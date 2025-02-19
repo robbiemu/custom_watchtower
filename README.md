@@ -9,7 +9,7 @@ This custom Watchtower image builds upon the official `containrrr/watchtower` im
 
 ## Secure Watchtower Installation
 
-The included `install_watchtower.sh` script takes several important steps to ensure the integrity of the downloaded Watchtower binary:
+The included `install_watchtower.sh` script takes several important steps to ensure the integrity of the downloaded Watchtower binary during the build phase:
 
 1. **Version Determination:** The script retrieves the latest Watchtower release tag from GitHub's API. This ensures you're always installing the most recent version.
 
